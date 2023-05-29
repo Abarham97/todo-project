@@ -1,5 +1,199 @@
-header {
 
-    background-color: grey;
 
+/*header*/
+header{
+
+    background-color: gray;
+    height: 50px;
+    
+}
+
+header h2{
+
+    position: fixed;
+    right: 10px;
+    top: 20px; 
+}
+
+header img{
+
+    position:fixed;
+    top:0px;
+    left: 0px;
+}
+
+header nav{
+    text-decoration: none;
+    position: fixed;
+    display: inline-block;
+    top: 20px;
+    left:500px;
+}
+
+header ul{
+
+    position: fixed;
+    display: inline;
+}
+
+header li{
+    
+    display: inline;
+    margin: 230px;
+}
+
+header ul,header a{
+    color: black;
+    text-decoration: none;
+}
+ a:hover{
+    background-color: blue;
+text-decoration: underline;
+box-shadow: inset 100px 0 0 0 lightblue;
+    
+}
+/*Main*/
+main{
+
+    height: 870px;
+}
+main table{
+   position: fixed;
+   left: 600px;
+   top:150px;
+    border: 5px solid;
+    height: 400px;
+    width: 600px;
+    
+}
+
+main table th,table tr ,table td{
+    position: static;
+   left:250px;
+   top: 250px;
+   background-color:lightsteelblue;
+    border: 3px solid;
+    text-align: center;
+    
+}
+
+main table hr{
+
+    height: 5px;
+    width: 50px;
+    margin-top: 50px;
+    
+    }
+main table form{
+
+        display: inline-block;
+        
+      
+    }
+.inputcolor{
+
+    background-color: gray;
+}
+.taskactive{
+    
+    background-color: darkgreen;
+}
+.taskinactive{
+  
+    background-color:red;
+}
+
+/*footer*/
+
+footer{
+
+    background-color: gray;
+    height: 60px;
+}
+footer h3{
+    
+   position: relative;
+   top :20px;
+
+   text-align: center;
+}
+
+/*about*/
+
+.aboutsection1{
+
+    
+    height: 500px;
+}
+.naming{
+
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    font-size:60px;
+    color: red;
+}
+.profileimage{
+border-radius: 50%;
+width: 250px;
+height: 250px;
+position: relative;
+top:70px;
+left: 180px;
+
+}
+.boxstyling{
+    position: relative;
+    top: 20px;
+    left: 390px;
+}
+
+.ContactMe{
+    text-align: center;
+    position: relative;
+    top: -80px;
+    font-weight: bold;
+    font-size:60px;
+    color: red;
+
+}
+
+
+
+.form-inline {  
+    display: block;
+    align-items: center;
+  }
+  
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+    display: block;
+    left: 450px;
+  }
+  
+  .form-inline input {
+    width: 700px;
+    height: 30px;
+    margin: 5px 10px 5px 0;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    left: 450px;
+  }
+  
+  .form-inline button {
+    display: block;
+    padding: 10px 20px;
+    background-color:purple;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    left: 450px;
+  }
+  
+.moveingtheform{
+position: relative;
+left: 650px;
+top: -70px;
 }

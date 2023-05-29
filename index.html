@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/style" href="./rest.css"/>
-    <link rel="stylesheet" type="text/style" href="./style.css"/>
+    <link rel="stylesheet"  href="./rest.css"/>
+    <link rel="stylesheet"  href="./style.css"/>
     <title>Document</title>
 </head>
 <body>
     <header>
         <div>
             <h2>To-Do-List</h2>
-           <img src="./To-Do-List-Excel-Template-03.JPG"  width="60" height="60">
+           <img src="./To-Do-List-Excel-Template-03.JPG"  width="50" height="50">
            <nav>
             <ul>
                 <li><a href="https://www.google.jo">Google</a></li>
@@ -21,68 +21,50 @@
            </nav>
     </div>
     </header>
-    <hr>
+    <main>
     <section>
-        <table border="solid">
+        <table class="table">
             <thead>
                 <th>Tasks</th> 
                 <th>Status</th>
             </thead>
             <tbody>
                 <tr>
-                <td>classes</td>
-                <td>
+                <td>classes 
                     <form>
-                        <label for="T">Tue</label>
-                        <input type="checkbox" id="T">
-                        <label for="F">False</label>
-                        <input type="checkbox" id="F">
+                        <label for="class"></label>
+                        <input type="checkbox" name="class" checked>
                     </form>
+                </td>
+                <td>
+                    <hr class="taskactive">
                 </td>
             </tr>
             <tr>
-                <td>LABS</td>
+                <td>LABS<form>
+                    <label for="LABS"></label>
+                    <input type="checkbox" name="LABS" checked>
+                </form></td>
                 <td>
-                    <form>
-                        <label for="T">Tue</label>
-                        <input type="checkbox" id="T">
-                        <label for="F">False</label>
-                        <input type="checkbox" id="F">
-                    </form>
+                   <hr class="taskactive">
                 </td>
             </tr>
             <tr>
-                <td>GYM</td>
+                <td>GYM<form>
+                    <label for="GYM"></label>
+                    <input type="checkbox" name="GYM">
+                </form></td>
                 <td>
-                    <form>
-                        <label for="T">Tue</label>
-                        <input type="checkbox" id="T">
-                        <label for="F">False</label>
-                        <input type="checkbox" id="F">
-                    </form>
+                   <hr class="taskinactive">
                 </td>
             </tr>
             </tbody>
         </table>
 
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
+</main>
     <footer>
-        <div> <h3>@CopyRight</h3>   
-            <p>To-Do-List</p>
-            <p>AbdlkareemBarham</p>
-        </div>
+        <h3>@ 2023 CopyRight Abdlkareem Barham</h3>
        
     </footer>
 </body>
