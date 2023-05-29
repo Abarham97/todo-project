@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="./rest.css"/>
+    <link rel="stylesheet"  href="./style.css"/>
+
     <title>Document</title>
 </head>
 <body>
     <header>
         <div>
             <h2>To-Do-List</h2>
-           <img src="./To-Do-List-Excel-Template-03.JPG"  width=60 ; height=60>
+           <img src="./To-Do-List-Excel-Template-03.JPG"  width=50 ; height=50>
            <nav>
             <ul>
                 <li><a href="https://www.google.jo">Google</a></li>
@@ -19,59 +22,40 @@
            </nav>
     </div>
     </header>
-    <hr>
+   
+    <main>
+    <section class="aboutsection1">
+            <p class="naming">Abdlkareem Barham</p>
 
-    <section>
-            <h3>Abdlkareem Barham</h3>
+            <img src="./abdelkareembarham.jpg"class="profileimage">
 
-            <img src="./abdelkareembarham.jpg" width="400" height="400">
-
-            <h5>about:</h5>
-            <p> I am abdulkareem Barham 26 years old I have Computer Science bachelors, 
-            I have three years of experience in networking field and I am now a student in LTUC to start my web development career path.
-            </p>
+           <textarea rows="10" cols="100" class="boxstyling">
+ I am abdulkareem Barham 26 years old I have Computer Science bachelors,I have three years of experience in networking field and I am now a student in LTUC to start my web development career path.
+        </textarea>      
+             
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
+    <p class="ContactMe">Contact Me</p>
     <section>
-        <table border="solid">
-            <thead>
-                <th>FORM</th>
-            </thead>
-            <tr><td><form>
+        
+                
+            <div class="moveingtheform">
+                <form class="form-inline">
                 <label for="username">username</label>
                 <input type="text" id="username">
                 <label for="email">E-mail</label>
                 <input type="email" id="email">
-                <labe for="message">message</labe>
-                <input type="text" id="message">
-                <input type="submit">
-            </form></td></tr>
-            
-    </table>
-        
-
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
-    <footer>
-        <div> <h3>@CopyRight</h3>   
-            <p>To-Do-List</p>
-            <p>AbdlkareemBarham</p>
+                <labe for="Phone">message</labe>
+                <input type="text" id="Phone">
+                <button type="submit">Submit</button>
+            </form>
         </div>
-       
-    </footer>
+           
+    </section>
+    
+</main>
+<footer>
+    <h3>@ 2023 CopyRight Abdlkareem Barham</h3>
+   
+</footer>
 </body>
 </html>
