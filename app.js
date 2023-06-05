@@ -30,3 +30,36 @@ else
 
 }
 }
+
+let Answer = new Array();
+
+
+
+
+let realAge=prompt ("Did You enter  your  Real Age");
+while(realAge != 'yes' && realAge !='no')
+{
+    realAge=prompt ("Please answer Yes/No");
+
+}
+Answer.push(realAge);
+let javaScript =prompt ("Do you know what is JavaScript");
+while(JavaScript != 'yes' && javaScript !='no')
+{
+    javaScript=prompt ("Please answer Yes/No");
+
+}
+answer.push(javaScript);
+let myWebsite=prompt ("Do You like my website");
+
+while(myWebsite != 'yes' && myWebsite !='no')
+{
+    myWebsite=prompt ("Please answer Yes/No");
+
+}
+Answer.push(myWebsite);
+
+for(let i=0;i<Answer.length;i++)
+{
+    console.log("your answer for question"+" "+(i+1)+" "+Answer[i]);
+}
