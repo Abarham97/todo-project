@@ -31,30 +31,34 @@ else
 }
 }
 
-let Answer = new Array();
+threeQuestion();
 
 
+function threeQuestion(){
 
-
+    let Answer = new Array();
 let realAge=prompt ("Did You enter  your  Real Age");
-while(realAge != 'yes' && realAge !='no')
+if(realAge != 'yes' && realAge !='no')
 {
-    realAge=prompt ("Please answer Yes/No");
+    realAge="invalid";
 
 }
+
 Answer.push(realAge);
+
 let javaScript =prompt ("Do you know what is JavaScript");
-while(JavaScript != 'yes' && javaScript !='no')
+if(javaScript != 'yes' && javaScript !='no')
 {
-    javaScript=prompt ("Please answer Yes/No");
+    javaScript="invalid";
 
 }
-answer.push(javaScript);
+Answer.push(javaScript);
+
 let myWebsite=prompt ("Do You like my website");
 
-while(myWebsite != 'yes' && myWebsite !='no')
+if(myWebsite != 'yes' && myWebsite !='no')
 {
-    myWebsite=prompt ("Please answer Yes/No");
+    myWebsite="invalid";
 
 }
 Answer.push(myWebsite);
@@ -62,4 +66,6 @@ Answer.push(myWebsite);
 for(let i=0;i<Answer.length;i++)
 {
     console.log("your answer for question"+" "+(i+1)+" "+Answer[i]);
+}
+
 }
